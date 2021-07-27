@@ -18,7 +18,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @Entity
 public class Shop {
-
+	//Relation 1:N two-way binding
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
